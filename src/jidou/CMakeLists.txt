@@ -12,9 +12,11 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 add_executable(mytest src/mytest.cpp)
+add_executable(apple src/apple.cpp)
 
 install(TARGETS
   mytest
+  apple
   DESTINATION lib/${PROJECT_NAME}
 )
 
