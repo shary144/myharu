@@ -2,4 +2,5 @@
 
 int main() {
    std::cout << "Hello, World!" << std::endl;
+   std::cout << "This is haru26" << std::endl;
 }
